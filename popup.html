@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  	<head>
+		<style>
+			body {
+				padding: 0px 20px;
+			}
+			
+			input, textarea {
+				font-size: 16px;
+				margin-bottom: 10px;
+				width: 200px;
+				resize: none;
+			}
+
+			#users, #up {
+				display: none;
+			}
+
+			span {
+				cursor: pointer;
+			}
+
+		</style>
+	</head>
+	<body>
+		<h4>Search Github</h4>
+		<input id="search" placeholder="Search for a repo" type="text">
+
+		<p id="expand">Comma-separated users/orgs:
+			<span id="down">&#x25BC</span>
+			<span id="up">&#x25B2</span>
+		</p>
+		<textarea rows="2" id="users"></textarea>
+	</body>
+	<script src="script.js"></script>
+</html>

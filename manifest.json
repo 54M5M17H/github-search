@@ -1,0 +1,32 @@
+{
+    "name": "Github Search",
+    "version": "0.1",
+	"manifest_version": 2,
+	"browser_action": {
+		"default_popup": "popup.html"
+	},
+	"permissions": [
+		"activeTab",
+		"storage"
+	],
+	"commands": {
+		"_execute_browser_action": {
+			"suggested_key": {
+				"default": "Ctrl+G",
+				"windows": "Ctrl+G",
+				"mac": "Ctrl+G",
+				"chromeos": "Ctrl+G",
+				"linux": "Ctrl+G"
+			}	
+		},
+		"_execute_page_action": {
+			"suggested_key": {
+				"default": "Ctrl+G",
+				"windows": "Ctrl+G",
+				"mac": "Ctrl+G",
+				"chromeos": "Ctrl+G",
+				"linux": "Ctrl+G"
+			}	
+		}
+	}
+}
